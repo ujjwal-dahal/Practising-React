@@ -1,0 +1,19 @@
+nav{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  text-transform: capitalize;
+  justify-content: space-around;
+  margin-top: 0px;
+
+}
+
+nav > li > a{
+  color: yellow;
+}
+
+nav > li > a:hover{
+  color: red;
+  transition: all 0.2s ease-in-out;
+}
