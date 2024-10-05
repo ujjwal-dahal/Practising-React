@@ -1,0 +1,9 @@
+
+
+.main-container{
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  margin: 10px 0px 10px 0px;
+}
+

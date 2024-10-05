@@ -1,0 +1,8 @@
+
+.data-container{
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  justify-content: space-around;
+  margin: 5px 0px 10px 0px;
+}
