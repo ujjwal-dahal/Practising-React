@@ -1,0 +1,23 @@
+
+
+.title{
+  color: red;
+}
+
+.second-title{
+  color: green;
+}
+
+.third-title{
+  color:blue;
+}
+
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+  align-items: center;
+  margin: 20px;
+}
