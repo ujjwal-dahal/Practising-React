@@ -1,0 +1,19 @@
+
+
+.box{
+ height: 30px;
+ background-color: black;
+ color: yellow;
+ border-radius: 8px;
+ width: 100px;
+ margin: 0px 0px 0px 15px;
+}
+
+.text-box{
+  height: 30px;
+  width: 20rem;
+  border: 2px solid grey;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 500;
+}

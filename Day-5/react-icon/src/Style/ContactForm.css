@@ -1,0 +1,92 @@
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 30rem;
+  width: 34rem;
+  padding: 20px;
+  border: 2px solid rgba(128, 128, 128, 0.5);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff; 
+}
+
+.name-box{
+  display: flex;
+}
+
+
+.input-box{
+  height: 2.8rem;
+  width: 26rem;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.input-box::placeholder{
+  position: relative;
+  left: 32px;
+  color: #999; 
+    opacity: 1; 
+}
+
+.icon{
+  position: relative;
+  left: 27px;
+  font-size: 20px;
+  color: grey;
+}
+
+.noIcon{
+  color: transparent;
+}
+
+.box1{
+  width: 12.6rem;
+  margin: 0px 10px 0px 0px;
+}
+
+.btn1{
+  height: 2.8rem;
+  width: 26rem;
+  background-color: rgb(3, 3, 80);
+  color: white;
+  border: 1px solid rgb(3, 3, 80);
+  border-radius: 4px;
+}
+
+.btn1:hover{
+  background-color: rgb(5, 5, 164);
+  color: white;
+  transition: background-color 0.2s ease-in-out , color 0.2s ease-in-out;
+}
+
+.title{
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.second-title{
+  font-weight: 400;
+  font-size: 17px;
+  margin: 2px 0px 10px 0px;
+}
+
+.whole-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.icon1{
+  font-size: 31px;
+  margin: 10px 5px 0px 5px;
+  cursor: pointer;
+}
+
