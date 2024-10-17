@@ -10,7 +10,10 @@ import Terms from "./Components/Website/Terms";
 import Error from "./Components/Website/Error";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import FetchData from "./Components/Axios/FetchData";
+
+import PostData from "./Components/Axios/PostData";
+
+import CrudApi from "./API/components/CrudApi";
 
 function App() {
   let myRouter = createBrowserRouter([
@@ -48,8 +51,12 @@ function App() {
           element: <Terms />,
         },
         {
-          path:"fetchdata",
-          element : <FetchData />
+          path:"/postdata",
+          element : <PostData />
+        },
+        {
+          path:"/crud",
+          element : <CrudApi />
         },
         {
           path: "*",
