@@ -1,0 +1,59 @@
+/* src/components/Navbar.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  height: 5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-logo {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-links li {
+  display: inline-block;
+}
+
+.nav-item {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-item:hover {
+  color: #1c1c1c;
+  background-color: #ffbb00;
+  border-radius: 5px;
+}
+
+.nav-item-active {
+  color: #ffbb00;
+  font-weight: 700;
+}
