@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  
+
+
+  > .click-btn{
+    color: white;
+    background-color: orange;
+    border: transparent;
+    width: 12rem;
+    height: 10rem;
+    font-size:2rem;
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 50px;
+
+    animation-name: myAnimation 5s linear infinite alternate;
+
+    @keyframes myAnimation {
+      to{
+        transform: translateY(30px);
+      }
+    }
+    
+  }
+
+  
+}

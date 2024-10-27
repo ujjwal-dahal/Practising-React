@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./Css/LoginPage.css";
 import { myContext } from "../../App";
+import { toast } from "react-toastify";
 
 const LoginPage = () => {
   
@@ -20,7 +21,7 @@ const LoginPage = () => {
       setIsLogin(true); 
       navigate("/"); 
     } else {
-      alert("Invalid email or password");
+      toast.error("Invalid Credentials")
     }
   };
 

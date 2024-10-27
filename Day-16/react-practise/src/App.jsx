@@ -14,6 +14,8 @@ import SignupPage from "./Components/Authentication/SignupPage";
 import LoginPage from "./Components/Authentication/LoginPage";
 import CountryList from "./Components/TechNews/CountryList";
 import Sorting from "./Components/Sorting/Sorting";
+import { ToastContainer } from "react-toastify";
+import "../node_modules/react-toastify/dist/ReactToastify.css"
 
 export const myContext = createContext();
 
@@ -108,6 +110,7 @@ function App() {
 
   return (
     <>
+    <ToastContainer />
       <RouterProvider router={myRouter} />
     </>
   );

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./Css/SignupPage.css";
 import { Link, useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 
 let keyName = "signupData";
 
@@ -43,13 +44,16 @@ let SignupPage = () => {
         localStorage.setItem(keyName, JSON.stringify(updatedData));
 
         console.log("Total Data:", updatedData);
-
+        toast.success("Registration Successfully");
         navigate("/login");
       } else {
-        console.log("Passwords do not match");
+        toast.error("Passwords do not match", {
+          position: "bottom-right",
+          theme: "colored",
+        });
       }
     } else {
-      console.log("Invalid Credentials");
+      toast.error("Invalid Credentials");
     }
   };
 
